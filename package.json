@@ -1,5 +1,5 @@
 {
-  "name": "purescript-react-vite-starter",
+  "name": "puretube",
   "version": "0.0.0",
   "scripts": {
     "build:spago": "spago build",
