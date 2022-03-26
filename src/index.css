@@ -1,5 +1,5 @@
 /* Add imports to all `.pcss` or `.css` here */
-/* @import "counter/style.pcss"; */
+@import "Components/VideoItem.css";
 
 /* body { */
   /* margin: 0; */
