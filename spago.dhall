@@ -12,15 +12,20 @@ to generate this file without the comments in this block.
 -}
 { name = "my-project"
 , dependencies =
-  [ "console"
+  [ "aff"
+  , "affjax"
+  , "arrays"
+  , "console"
   , "effect"
+  , "either"
   , "exceptions"
   , "maybe"
   , "prelude"
-  , "psci-support"
   , "react-basic"
   , "react-basic-dom"
   , "react-basic-hooks"
+  , "simple-json"
+  , "tuples"
   , "web-dom"
   , "web-html"
   ]
