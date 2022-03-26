@@ -18,7 +18,7 @@ main =
     $ do
         log "Anything else at all"
         app <- mkApp
-        root <- getElementById "root" =<< (toNonElementParentNode <$> (document =<< window))
+        root <- getElementById "app" =<< (toNonElementParentNode <$> (document =<< window))
         case root of
           Nothing -> throw "Root element not found."
           Just c -> do
